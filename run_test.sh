@@ -22,4 +22,4 @@ exit 1
 }
 
 ##main 
-run_test ROBOT_ARGS=$@
+run_test ${ROBOT_ARGS}
