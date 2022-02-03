@@ -1,6 +1,7 @@
 
 *** Settings ***
 Documentation       TEST suite to test Music festival
+Force Tags          MUSIC_API
 Library             String
 Variables           ${config_dir}/{env}.yaml
 Library             REST		${URL}	   ssl_verify=false
